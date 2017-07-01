@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php
-if(!file_exists('editor.php')){
+if(!file_exists('editor.php') || !isset($_GET['update'])){
 echo '<h1>Installing Editor</h1>';
 echo '<hr><br><div class=txt-status><b>Status</b>: Downloaded</div><div class=status>';
 echo rand(1,10).'% - Start downloading..<br>';
