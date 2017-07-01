@@ -11,7 +11,13 @@
 <body>
 <?php
 if(!file_exists('editor.php') || isset($_GET['update'])){
-echo '<h1>Installing Editor</h1>';
+echo '<h1>';
+if(isset($_GET['update'])){
+echo 'Updating';
+}else{
+echo 'Installing';
+}
+echo ' Editor</h1>';
 echo '<hr><br><div class=txt-status><b>Status</b>: Downloaded</div><div class=status>';
 echo rand(1,10).'% - Start downloading..<br>';
 file_put_contents('editor.php', file_get_contents('http://docs.naziks.pp.ua/public/editor/latest.php'));
@@ -21,7 +27,8 @@ echo rand(31,40).'% - Downloading..<br>';
 echo rand(41,50).'% - Downloading..<br>';
 echo rand(51,90).'% - Downloading..<br>';
 echo '100% - Downloaded<br></div>';
-echo '<br><div class=txt-status>Info: </div><div class=status>Default password - <b>admin</b><br>';
+echo '<br><div class=txt-status>Info: </div><div class=status>';
+if(isset($_GET['update'])){echo 'Default password - <b>admin</b><br>';}
 echo 'Click <a href=editor.php>here</a> to open File Editor By Naziks</div>';
 }else{
 header('location: editor.php');
