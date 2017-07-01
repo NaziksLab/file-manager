@@ -27,8 +27,9 @@ echo rand(31,40).'% - Downloading..<br>';
 echo rand(41,50).'% - Downloading..<br>';
 echo rand(51,90).'% - Downloading..<br>';
 echo '100% - Downloaded<br></div>';
-echo '<br><div class=txt-status>Info: </div><div class=status>';
-if(isset($_GET['update'])){echo 'Default password - <b>admin</b><br>';}
+echo '<br><div class=txt-status>CHANGELOG: </div><div class=status>'.file_get_contents('http://docs.naziks.pp.ua/public/editor/changelog.php').'</div>';
+  echo '<br><div class=txt-status>Info: </div><div class=status>';
+if(!isset($_GET['update'])){echo 'Default password - <b>admin</b><br>';}
 echo 'Click <a href=editor.php>here</a> to open File Editor By Naziks</div>';
 }else{
 header('location: editor.php');
