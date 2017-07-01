@@ -24,11 +24,11 @@ Also it have video and audio player.
 
 
 ## 3. MODULES
-[] FTP MODULE
-[] MYSQL MODULE
-[] GIT MODULE
-WRITE ME (HERE)[mailto:mail@naziks.pp.ua], if you have some ideas.
+- [] FTP MODULE
+- [] MYSQL MODULE
+- [] GIT MODULE
+WRITE ME [HERE](mailto:mail@naziks.pp.ua]) if you have some ideas.
 
 ## 4. TODO
-[] MODULES
-[] MULTI-LANGUAGES
+- [] MODULES
+- [] MULTI-LANGUAGES
