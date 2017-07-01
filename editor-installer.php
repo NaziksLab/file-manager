@@ -10,8 +10,7 @@
 </head>
 <body>
 <?php
-//if(!file_exists('editor.php')){
-if(2+2==4){
+if(!file_exists('editor.php')){
 echo '<h1>Installing Editor</h1>';
 echo '<hr><br><div class=txt-status><b>Status</b>: Downloaded</div><div class=status>';
 echo rand(1,10).'% - Start downloading..<br>';
@@ -36,7 +35,6 @@ div.status{border-radius:5px;color:#272728;margin-left:5%;margin-right:5%;backgr
 body{background:#365587;}
 a{color:#;}
 a:hover{color:orange}
-.cbalink{display:none;}
 </style>
 </body>
 </html>
