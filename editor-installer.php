@@ -14,7 +14,7 @@ if(!file_exists('editor.php')){
 echo '<h1>Installing Editor</h1>';
 echo '<hr><br><div class=txt-status><b>Status</b>: Downloaded</div><div class=status>';
 echo rand(1,10).'% - Start downloading..<br>';
-file_put_contents('editor.php', file_get_contents('http://docs.naziks.pp.ua/public/editor/editor.txt'));
+file_put_contents('editor.php', file_get_contents('http://docs.naziks.pp.ua/public/editor/latest.php'));
 echo rand(11,20).'% - Downloading..<br>';
 echo rand(21,30).'% - Downloading..<br>';
 echo rand(31,40).'% - Downloading..<br>';
