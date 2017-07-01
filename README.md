@@ -9,6 +9,7 @@ File Manager for your site
 
 ## 1. FUNCTIONS
 This is multifunctional file manager. It can:
+
     - COPY
     - MOVE
     - DELETE
@@ -24,6 +25,7 @@ Also it have video and audio player.
 
 
 ## 3. MODULES
+
 - [ ] FTP MODULE
 - [ ] MYSQL MODULE
 - [ ] GIT MODULE
@@ -31,5 +33,6 @@ Also it have video and audio player.
 WRITE ME [HERE](mailto:mail@naziks.pp.ua]) if you have some ideas.
 
 ## 4. TODO
+
 - [ ] MODULES
 - [ ] MULTI-LANGUAGES
